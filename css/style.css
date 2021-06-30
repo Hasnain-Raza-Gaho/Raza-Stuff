@@ -501,7 +501,7 @@ hr{
 /* ................CV Gallery Styles End Here.......  */
 
 
-/* ................Wed Anim and Slideshow Gallery Styles End Here.......  */
+/* ................Slideshow Gallery Styles Start Here.......  */
 
 .gallery{
     margin: 40px;
@@ -645,7 +645,115 @@ hr{
     border-radius: 5px;
 }
 
-.block-1 a{
-    font-size: 4rem;
+
+/* ................Slideshow Gallery Styles End Here.......  */
+
+
+
+/* ..................contact Us start............  */
+
+.contact-us .form, .contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-/* ................Wed Anim and Slideshow Gallery Styles End Here.......  */
+form tr td, form tr td input, form tr td textarea  {
+    width: 400px;
+    resize: none;
+    outline: none;
+    margin: auto;
+    padding: 10px;
+    gap: 0;
+
+}
+
+
+form tr td{
+    background-color: #d4d4d433;
+    
+}
+
+form tr td:first-child{
+    text-align: center;
+    text-transform: uppercase;
+    /* font-size: 400px; */
+    font-weight: 600;
+    color: #ff8b00;
+    
+}
+
+form tr td label{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff8b00;
+    
+}
+
+
+form tr td ::placeholder{
+    /* text-align: center; */
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    
+}
+
+form tr #submit button {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff8b00;
+    padding: 5px 60px;
+    /* outline: none; */
+    border: 1px solid #00647b;
+    border-radius: 20px;
+    /* background-color: black; */
+    transition: 500ms;
+    margin: 20px 0;
+}
+
+form tr #submit button:hover {
+padding: 5px 100px ;
+background-color: #ff8b00;
+color: white;
+font-weight: 700;
+}
+
+.card-contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    box-shadow: 5px 5px 6px 4px rgb(83 83 83 / 40%);
+    margin: 40px auto;
+    /* border-radius: 20px; */
+    padding: 20px;
+    transform: scale(1);
+    transition: 1000ms;
+
+}
+
+.card-contact:hover{
+    transform: scale(1.1);
+}
+
+.card-contact h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    /* margin: 20px 0 0px 0; */
+    font-weight: 600;
+    color: #ff8b00;
+    padding: 5px 60px;
+}
+
+.card-contact #number{
+    font-size: 50px;
+    margin: 0;
+}
