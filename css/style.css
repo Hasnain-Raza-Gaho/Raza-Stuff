@@ -186,19 +186,64 @@ color: white;
     height: 500px;
     background-position: cover;
     width: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     }
+    #cover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
 
 
     #cover img{
+    /* margin:0 0 0px 60px ; */
     width: 300px;
     height: auto;
     }
+    #cover h2{
+        padding: 20px;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    }
+    #cover button a{
+        text-decoration: none;
+        color: white;
+        background: transparent;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        padding: 20px;
+        display: block;
+        /* margin: 20px; */
 
+    }
+
+    #cover .buttons{
+        display: flex;
+        justify-content: center;
+        width: 600px;
+        margin: auto;
+    }
+    #cover button{
+    background-color: transparent;
+    margin: 0 20px;
+    width: 60%;
+    /* padding: 20px; */
+    border: 1px solid #2ed9ff;
+    border-radius: 40px;
+    transition: 1000ms;
+
+    }
+
+    #cover Button:hover{
+    width:120% ;
+    }
 
     /* ---------------cover End----------- */
 
@@ -224,8 +269,6 @@ height: auto;
     margin: 20px;
     display: flex;
     margin-top: 40px;
-    width: auto;
-    height: auto;
 }
 
 
@@ -236,7 +279,13 @@ height: auto;
     box-shadow: 5px 5px 20px rgba(70, 69, 69,.3);
     justify-content: space-between;
     align-items:center;
+    transition: 1000ms;
+    transform: scale(1);
 
+}
+
+.content-1:hover{
+transform: scale(1.1);
 }
 
 
@@ -244,16 +293,17 @@ height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    padding: 30px 60px;
+    padding: 20px 30px;
 }
 
 
 .content-1>.text>h2{
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-transform: uppercase;
     color: #ff8b00d1; 
+    padding-bottom: 5px;
 }
 
 .content-1>.text>button>a{
@@ -278,7 +328,7 @@ margin: 20px;
 border: 1px solid #fcab48d1;
 border-radius: 50px;
 width: 65%;
-transition: all 500ms;
+transition: all 1000ms;
 box-shadow: 1px 1px 2px grey;
 }
 
@@ -293,13 +343,15 @@ width: 100%;
 
 .content-1>.image{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: auto;
 }
 
 
 .content-1>.image>img{
     max-width: 400px;
-    height: auto;
+    height: max-content;
 } 
 
 /* ..................body content end here ......*/
