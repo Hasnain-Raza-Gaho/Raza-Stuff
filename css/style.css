@@ -191,7 +191,6 @@ color: white;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    /* position: relative; */
     }
 
 
@@ -199,23 +198,12 @@ color: white;
     width: 300px;
     height: auto;
     }
-    /* #cover>#design-1{
-        position: absolute;
-        bottom: 0px;
-        right: 0;
-        width: 30%;
-    }
-
-    #cover>#design-2{
-        position: absolute;
-        bottom: 30px;
-        left: -500px;
-        width: 50%;
-    } */
-
 
 
     /* ---------------cover End----------- */
+
+
+
 
 
     /* ............body content start ......*/
@@ -234,7 +222,6 @@ height: auto;
 
 .content{
     margin: 20px;
-    /* border-radius: 20px; */
     display: flex;
     margin-top: 40px;
     width: auto;
@@ -320,6 +307,8 @@ width: 100%;
 
 
 
+
+
 /* ................footer start......... */
  #footer{
 background-color: rgb(68, 68, 67);
@@ -348,6 +337,9 @@ padding: 0 10px;
 
 
 
+
+
+
 /* ..................CV Gallery Styles Start Here.......  */
 
 .gallery{
@@ -369,8 +361,8 @@ padding: 0 10px;
     text-align: center;
     cursor: pointer;
     transition: 1500ms;
-
 }
+
 
 .g-heading>h2:hover{
     letter-spacing: 3px ;
@@ -394,12 +386,10 @@ padding: 0 10px;
     align-self:center;
     text-align: center;
     margin: 30px 40px;
-    /* transform: scale(1); */
     transition: 1000ms;
     z-index: 1;
-
-
 }
+
 
 .cv-data:hover{
 transform: scale(1.09);
@@ -413,10 +403,12 @@ transform: scale(1.09);
     padding: 10px;
 }
 
+
 .cv-data>.cv-image>img{
 width: 300px;
 height: auto;
 }
+
 
 
 .cv-image>.btn>.btn-cv{
@@ -424,8 +416,9 @@ height: auto;
     border-radius: 20px;
     background-color: transparent;
     border: none;
-
 }
+
+
 .cv-image>.btn>.btn-cv>a{
     padding: 10px;
     border-radius: 20px;
@@ -436,9 +429,8 @@ height: auto;
     display: block;
     width: 140px;
     transition: all 500ms;
-
-    
 }
+
 
 
 .cv-image>.btn>.btn-cv>a:hover{
@@ -446,20 +438,14 @@ height: auto;
     background-color: #ff8b00;
 }
 
+
+
 .cv-image>.btn>.btn-cv:hover a{
-
     width: 200px;
-
 }
 
+
 .btn-more{
-    /* display: block; */
-    /* width: 500px; */
-    /* text-align: center; */
-    /* padding: 10px; */
-    /* margin: auto; */
-    /* padding: ; */
-    /* border: 1px solid #00647b; */
     margin: 60px 10px;
     display: flex;
     justify-content: center;
@@ -488,7 +474,6 @@ height: auto;
 
 hr{
     width: 90%;
-    /* height: .7px; */
     margin: auto;
     border: 6px dashed #437681;
     opacity: 0.2;
@@ -498,10 +483,16 @@ hr{
 .block-1 a{
     font-size: 4rem;
 }
+
+
 /* ................CV Gallery Styles End Here.......  */
 
 
+
+
+
 /* ................Slideshow Gallery Styles Start Here.......  */
+
 
 .gallery{
     margin: 40px;
@@ -547,10 +538,7 @@ hr{
     align-self:center;
     text-align: center;
     margin: 30px 40px;
-    /* transform: scale(1); */
     z-index: 1;
-
-
 }
 
 
@@ -561,9 +549,8 @@ hr{
     padding: 10px;
 }
 
+
 .video-data>.vidvideo-image>video{
-/* width: 720px; */
-/* height: auto; */
 border: none;
 outline: none;
 }
@@ -576,6 +563,8 @@ outline: none;
     border: none;
 
 }
+
+
 .video-image>.btn>.btn-video>a{
     padding: 10px;
     border-radius: 20px;
@@ -586,9 +575,8 @@ outline: none;
     display: block;
     width: 140px;
     transition: all 500ms;
-
-    
 }
+
 
 
 .video-image>.btn>.btn-video>a:hover{
@@ -596,25 +584,20 @@ outline: none;
     background-color: #ff8b00;
 }
 
+
+
 .video-image>.btn>.btn-video:hover a{
-
     width: 200px;
-
 }
 
+
 .btn-more{
-    /* display: block; */
-    /* width: 500px; */
-    /* text-align: center; */
-    /* padding: 10px; */
-    /* margin: auto; */
-    /* padding: ; */
-    /* border: 1px solid #00647b; */
     margin: 60px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .btn-more>a{
     text-decoration: none;
@@ -632,13 +615,11 @@ outline: none;
     padding: 20px 120px;
     color: white;
     background-color: #00647b;
-
 }
 
 
 hr{
     width: 90%;
-    /* height: .7px; */
     margin: auto;
     border: 6px dashed #437681;
     opacity: 0.2;
@@ -650,7 +631,10 @@ hr{
 
 
 
-/* ..................contact Us start............  */
+
+
+/* ..................contact Us.html style start............  */
+
 
 .contact-us .form, .contact-us{
     display: flex;
@@ -658,6 +642,8 @@ hr{
     justify-content: center;
     align-items: center;
 }
+
+
 form tr td, form tr td input, form tr td textarea  {
     width: 400px;
     resize: none;
@@ -665,23 +651,21 @@ form tr td, form tr td input, form tr td textarea  {
     margin: auto;
     padding: 10px;
     gap: 0;
-
 }
+
 
 
 form tr td{
     background-color: #d4d4d433;
-    
-}
+    }
 
 form tr td:first-child{
     text-align: center;
     text-transform: uppercase;
-    /* font-size: 400px; */
     font-weight: 600;
     color: #ff8b00;
-    
 }
+
 
 form tr td label{
     text-align: center;
@@ -689,18 +673,18 @@ form tr td label{
     font-size: 20px;
     font-weight: 600;
     color: #ff8b00;
-    
-}
+    }
+
 
 
 form tr td ::placeholder{
-    /* text-align: center; */
     text-transform: capitalize;
     font-size: 12px;
     font-weight: 400;
     color: grey;
-    
 }
+
+
 
 form tr #submit button {
     text-align: center;
@@ -709,13 +693,12 @@ form tr #submit button {
     font-weight: 600;
     color: #ff8b00;
     padding: 5px 60px;
-    /* outline: none; */
     border: 1px solid #00647b;
     border-radius: 20px;
-    /* background-color: black; */
     transition: 500ms;
     margin: 20px 0;
 }
+
 
 form tr #submit button:hover {
 padding: 5px 100px ;
@@ -732,28 +715,64 @@ font-weight: 700;
     width: 60%;
     box-shadow: 5px 5px 6px 4px rgb(83 83 83 / 40%);
     margin: 40px auto;
-    /* border-radius: 20px; */
     padding: 20px;
     transform: scale(1);
-    transition: 1000ms;
-
+    transition: 100;
 }
+
 
 .card-contact:hover{
     transform: scale(1.1);
 }
 
+
 .card-contact h2{
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
-    /* margin: 20px 0 0px 0; */
     font-weight: 600;
     color: #ff8b00;
     padding: 5px 60px;
 }
 
+
+
 .card-contact #number{
     font-size: 50px;
     margin: 0;
 }
+
+/* ..................contact Us.html style start............  */
+
+
+/* ................ FAQS Style start here..................  */
+
+.form-2 form tr td{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff8b00;
+    padding: 20px;
+    }
+
+    .form-2 form tr td:nth-child(2){
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        color: #3f3f3f;
+        }
+
+        .form-2 form #head td{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 900;
+            color: #ff8b00;
+            padding: 20px;
+            }
+
+
+/* ................ FAQS Style End here..................  */
+
