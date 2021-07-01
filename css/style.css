@@ -89,24 +89,22 @@ display: inline-flex;
 }
 
 .right>ul>li .fb{
-    /* padding: 14px 12px 0 0; */
     margin: 12px 10px 0 0;
-    
     width: 20px;
     transition: 500ms;
 }
 
+
 .right>ul>li .utube{
-    /* padding: 14px 12px 0 0; */
     margin: 12px 10px 0 0;
-    
     width: 22px;
     transition: 500ms;
 }
+
+
 .right>ul>li .utube:hover, .right>ul>li .fb:hover {
 width: 24px ;
 }
-
 
 
 
