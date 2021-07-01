@@ -41,6 +41,7 @@ padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
     z-index: 5;
+    overflow: hidden;
 }
 
 
@@ -87,19 +88,26 @@ display: inline-flex;
     transition: width 500ms;
 }
 
+.right>ul>li .fb{
+    /* padding: 14px 12px 0 0; */
+    margin: 12px 10px 0 0;
+    
+    width: 20px;
+    transition: 500ms;
+}
 
-#menu .right ul li .fa-youtube, #menu .right ul li .fa-facebook-square {
-    color: #ffffff;
-    font-size: 16px;
-    padding-top: 15px;
-    padding-right: 10px;
-    transition: color 500ms;
+.right>ul>li .utube{
+    /* padding: 14px 12px 0 0; */
+    margin: 12px 10px 0 0;
+    
+    width: 22px;
+    transition: 500ms;
+}
+.right>ul>li .utube:hover, .right>ul>li .fb:hover {
+width: 24px ;
 }
 
 
-#menu .right ul li .fa-youtube:hover, #menu .right ul li .fa-facebook-square:hover{
-    color: #fcab48d1;
-}
 
 
 
@@ -205,6 +213,9 @@ color: white;
     width: 300px;
     height: auto;
     }
+
+
+
     #cover h2{
         padding: 20px;
     color: white;
@@ -212,6 +223,8 @@ color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
     }
+
+
     #cover button a{
         text-decoration: none;
         color: white;
@@ -220,8 +233,6 @@ color: white;
         letter-spacing: 4px;
         padding: 20px;
         display: block;
-        /* margin: 20px; */
-
     }
 
     #cover .buttons{
@@ -234,7 +245,6 @@ color: white;
     background-color: transparent;
     margin: 0 20px;
     width: 60%;
-    /* padding: 20px; */
     border: 1px solid #2ed9ff;
     border-radius: 40px;
     transition: 1000ms;
@@ -245,6 +255,8 @@ color: white;
     width:120% ;
     }
 
+
+    
     /* ---------------cover End----------- */
 
 
@@ -300,7 +312,7 @@ transform: scale(1.1);
 
 
 .content-1>.text>h2{
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     color: #ff8b00d1; 
     padding-bottom: 5px;
@@ -354,7 +366,84 @@ width: 100%;
     height: max-content;
 } 
 
-/* ..................body content end here ......*/
+
+/* ---------------- body content-1 style end here  */
+
+
+
+
+
+
+
+
+ /* ---------------- body content-2 style start here  */
+
+
+.content-2{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 5px 20px rgba(70, 69, 69,.3);
+    justify-content: space-around;
+    align-items:center;
+    transition: 1000ms;
+    transform: scale(1);
+
+}
+
+.content-2:hover{
+transform: scale(1.1);
+}
+
+
+.content-2>.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 40px;
+    width: 60%;
+    height: 100%;
+}
+.content-2 .details ul li{
+    padding: 10px;
+    font-size: 15px;
+    margin: 0px 0 0 -30px ;
+    color: rgb(110, 110, 110);
+    list-style:url('../assets/list\ style\ icon.png');
+    list-style-position: inside;
+    transition: font-size 100ms ease-in;
+}
+
+.content-2 .details ul li:hover{
+    outline: 2px solid #ff8b00;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.content-2>.text h2{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    color: #ff8b00d1; 
+}
+
+
+
+.content-2>.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 30px;
+}
+
+
+.content-2>.image>img{
+    width: 300px;
+    height: max-content;
+} 
+
+/* ..................body .content-2 end here ......*/
 
 
 
