@@ -11,7 +11,7 @@
 html,body{
     width: 100%;
     font-size: 12px;
-min-width: 850px;
+    min-width: 850px;
 }
 
 
@@ -37,7 +37,7 @@ padding-bottom: 40px;
     top: 0;
     width: 100%;
     max-height: 48px;
-    border-bottom: 1px solid rgba(1, 200, 190, 0.6);
+    border-bottom: .2em solid rgba(1, 200, 190, 0.6);
     display: flex;
     justify-content: space-between;
     z-index: 5;
@@ -74,15 +74,14 @@ display: inline-flex;
     background-repeat: no-repeat;
     background-size: 12px;
     background-position: 4px 5px;
-    padding-left:40px;
-    width: 20px;
+    width: 1.5em;
     color: #ff8b00d1;
     font-weight: 600;
     margin: 12px 12px 0 0 ;
     padding: 2px;
     border-radius: 6px;
     outline: none;
-    text-indent: 20px;
+    text-indent: 1.5em;
     border: none;
     transition: width 500ms;
 }
@@ -116,7 +115,7 @@ width: 24px ;
 
 
 #menubar>li>a{       
-padding: 15px 30px;
+padding: 1.2rem 3rem;
 text-decoration: none;
 color: rgb(255, 255, 255);
 transition: background-color 500ms;
@@ -214,10 +213,11 @@ color: white;
 
 
     #cover h2{
-        padding: 20px;
+        padding: 1.8em;
     color: white;
     font-weight: 100;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 5px;
     }
 
@@ -228,19 +228,19 @@ color: white;
         background: transparent;
         text-transform: uppercase;
         letter-spacing: 4px;
-        padding: 20px;
+        padding: 1.8em;
         display: block;
     }
 
     #cover .buttons{
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 600px;
-        margin: auto;
     }
     #cover button{
     background-color: transparent;
-    margin: 0 20px;
+    margin: 0 1.8em;
     width: 60%;
     border: 1px solid #2ed9ff;
     border-radius: 40px;
@@ -249,7 +249,7 @@ color: white;
     }
 
     #cover Button:hover{
-    width:120% ;
+    width:100% ;
     }
 
 
@@ -275,9 +275,9 @@ height: auto;
 
 
 .content{
-    margin: 20px;
+    margin: 1.8em;
     display: flex;
-    margin-top: 40px;
+    margin-top: 3.5em;
 }
 
 
@@ -304,7 +304,7 @@ transform: scale(1.02);
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 30px;
+    padding: 1.6em 2.5em;
 }
 
 
@@ -312,7 +312,7 @@ transform: scale(1.02);
     font-size: 3rem;
     text-transform: uppercase;
     color: #ff8b00d1; 
-    padding-bottom: 5px;
+    padding-bottom: .8em;
 }
 
 .content-1>.text>button>a{
@@ -332,11 +332,11 @@ color: #ffffff;
 
 .content-1>.text>button{
 background-color: white;
-padding: 10px 20px;
-margin: 20px;
+padding: 1em 1.8em;
+margin: 30px;
 border: 1px solid #fcab48d1;
 border-radius: 50px;
-width: 65%;
+width: 55%;
 transition: all 1000ms;
 box-shadow: 1px 1px 2px grey;
 }
@@ -345,7 +345,7 @@ box-shadow: 1px 1px 2px grey;
 .content-1>.text>button:hover{
 background-color: #00647b;
 border: 1px solid #2ed9ff;
-width: 100%;
+width: 70%;
 
 }
 
@@ -397,14 +397,15 @@ transform: scale(1.02);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 20px 40px;
+    padding: 1.6em 2.5em;
     width: 60%;
     height: 100%;
+    margin-bottom: 1.5em;
 }
 .content-2 .details ul li{
     padding: 10px;
-    font-size: 15px;
-    margin: 0px 0 0 -30px ;
+    font-size: 1.2em;
+    margin: 0px 0 0 -1em ;
     color: rgb(110, 110, 110);
     list-style:url('../assets/list\ style\ icon.png');
     list-style-position: inside;
@@ -413,7 +414,7 @@ transform: scale(1.02);
 
 .content-2 .details ul li:hover{
     outline: 2px solid #ff8b00;
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
@@ -431,7 +432,7 @@ transform: scale(1.02);
     justify-content: center;
     align-items: center;
     width: max-content;
-    padding: 30px;
+    padding: 2.5em;
 }
 
 
@@ -450,15 +451,18 @@ transform: scale(1.02);
 /* ................footer start......... */
  #footer{
 background-color: rgb(68, 68, 67);
-padding: 5px 10px;
+padding: 0.4em .2em;
 color: white;
 text-align: center;
 display: block;
-font-size: 10px;
+font-size: 1em;
 margin-top: -30px;
 min-height: 30px;
 height: auto;
 width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
@@ -466,7 +470,7 @@ width: 100%;
 border-left: 1px solid white;
 border-right: 1px solid white;
 display: inline-block;
-padding: 0 10px;
+padding: 0 1em;
 }
 /* ..............footer end ........... */
 
@@ -481,7 +485,7 @@ padding: 0 10px;
 /* ..................CV Gallery Styles Start Here.......  */
 
 .gallery{
-    margin: 40px;
+    margin: 3em;
 }
 
 
@@ -491,11 +495,11 @@ padding: 0 10px;
     text-transform: uppercase;
     font-weight: 500;
     color: #ff8b00;
-    padding-left: 5px;
+    padding-left: 0.5em;
     border-bottom: 4px solid #00647b;
     border-radius: 50px;
     width: 80%;
-    margin: 80px auto 40px auto;
+    margin: 6em auto 3em auto;
     text-align: center;
     cursor: pointer;
     transition: 1500ms;
@@ -510,7 +514,7 @@ padding: 0 10px;
 
 .cv-container{
     display: flex;
-    padding: 20px;
+    padding: 1.8em;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -523,7 +527,7 @@ padding: 0 10px;
     flex-direction: column;
     align-self:center;
     text-align: center;
-    margin: 30px 40px;
+    margin: 2.5em 3.5em;
     transition: 1000ms;
     z-index: 1;
 }
@@ -538,7 +542,7 @@ transform: scale(1.02);
 .cv-data>.cv-name>h2{
     font-size: 2rem;
     color: #ff8b00d1;
-    padding: 10px;
+    padding: 0.8em;
 }
 
 
@@ -550,7 +554,7 @@ height: auto;
 
 
 .cv-image>.btn>.btn-cv{
-    margin: 15px;
+    margin: 1.2em;
     border-radius: 20px;
     background-color: transparent;
     border: none;
@@ -558,14 +562,14 @@ height: auto;
 
 
 .cv-image>.btn>.btn-cv>a{
-    padding: 10px;
+    padding: 0.8em;
     border-radius: 20px;
     border: 1px solid #00647b;
     text-decoration: none;
     text-transform: uppercase;
     color: #ff8b00;
     display: block;
-    width: 140px;
+    width: 11em;
     transition: all 500ms;
 }
 
@@ -579,12 +583,12 @@ height: auto;
 
 
 .cv-image>.btn>.btn-cv:hover a{
-    width: 200px;
+    width: 14em;
 }
 
 
 .btn-more{
-    margin: 60px 10px;
+    margin: 5em 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -596,14 +600,14 @@ height: auto;
     font-size: 2rem;
     border-radius: 50px;
     border: 2px solid #00647b;
-    padding: 20px 40px;
+    padding: 1.8em 3.4em;
     text-transform: uppercase;
     transition: 1000ms;
 }
 
 
 .btn-more>a:hover{
-    padding: 20px 120px;
+    padding: 1.8em 4.5em;
     color: white;
     background-color: #00647b;
 
@@ -618,9 +622,7 @@ hr{
     border-radius: 5px;
 }
 
-.block-1 a{
-    font-size: 4rem;
-}
+
 
 
 /* ................CV Gallery Styles End Here.......  */
@@ -633,7 +635,7 @@ hr{
 
 
 .gallery{
-    margin: 40px;
+    margin: 3em;
 }
 
 
@@ -643,11 +645,11 @@ hr{
     text-transform: uppercase;
     font-weight: 500;
     color: #ff8b00;
-    padding-left: 5px;
+    padding-left: .5em;
     border-bottom: 4px solid #00647b;
     border-radius: 50px;
     width: 80%;
-    margin: 80px auto 40px auto;
+    margin: 6em auto 3em auto;
     text-align: center;
     cursor: pointer;
     transition: 1500ms;
@@ -662,7 +664,7 @@ hr{
 
 .video-container{
     display: flex;
-    padding: 20px;
+    padding: 1.8em;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -674,8 +676,8 @@ hr{
     display: flex;
     flex-direction: column;
     align-self:center;
-    text-align: center;
-    margin: 30px 40px;
+    text-align: center;    
+    margin: 2.5em 3.5em;
     z-index: 1;
 }
 
@@ -684,7 +686,8 @@ hr{
 .video-data>.video-name>h2{
     font-size: 2rem;
     color: #ff8b00d1;
-    padding: 10px;
+    padding: 0.8em;
+
 }
 
 
@@ -693,76 +696,6 @@ border: none;
 outline: none;
 }
 
-
-.video-image>.btn>.btn-video{
-    margin: 15px;
-    border-radius: 20px;
-    background-color: transparent;
-    border: none;
-
-}
-
-
-.video-image>.btn>.btn-video>a{
-    padding: 10px;
-    border-radius: 20px;
-    border: 1px solid #00647b;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #ff8b00;
-    display: block;
-    width: 140px;
-    transition: all 500ms;
-}
-
-
-
-.video-image>.btn>.btn-video>a:hover{
-    color: #fff;
-    background-color: #ff8b00;
-}
-
-
-
-.video-image>.btn>.btn-video:hover a{
-    width: 200px;
-}
-
-
-.btn-more{
-    margin: 60px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.btn-more>a{
-    text-decoration: none;
-    color: #ff8b00;
-    font-size: 2rem;
-    border-radius: 50px;
-    border: 2px solid #00647b;
-    padding: 20px 40px;
-    text-transform: uppercase;
-    transition: 1000ms;
-}
-
-
-.btn-more>a:hover{
-    padding: 20px 120px;
-    color: white;
-    background-color: #00647b;
-}
-
-
-hr{
-    width: 90%;
-    margin: auto;
-    border: 6px dashed #437681;
-    opacity: 0.2;
-    border-radius: 5px;
-}
 
 
 /* ................Slideshow Gallery Styles End Here.......  */
@@ -787,7 +720,7 @@ form tr td, form tr td input, form tr td textarea  {
     resize: none;
     outline: none;
     margin: auto;
-    padding: 10px;
+    padding: .9em;
     gap: 0;
 }
 
@@ -808,7 +741,7 @@ form tr td:first-child{
 form tr td label{
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.6em;
     font-weight: 600;
     color: #ff8b00;
     }
@@ -834,12 +767,12 @@ form tr #submit button {
     border: 1px solid #00647b;
     border-radius: 20px;
     transition: 500ms;
-    margin: 20px 0;
+    margin: 1.8em 0;
 }
 
 
 form tr #submit button:hover {
-padding: 5px 100px ;
+padding: 0.5em 8em ;
 background-color: #ff8b00;
 color: white;
 font-weight: 700;
@@ -852,8 +785,8 @@ font-weight: 700;
     align-items: center;
     width: 60%;
     box-shadow: 5px 5px 6px 4px rgb(83 83 83 / 40%);
-    margin: 40px auto;
-    padding: 20px;
+    margin: 3.5em auto;
+    padding: 1.8em;
     transform: scale(1);
     transition: 100;
 }
@@ -870,7 +803,7 @@ font-weight: 700;
     font-size: 1.6em;
     font-weight: 600;
     color: #ff8b00;
-    padding: 5px 60px;
+    padding: 0.5em 5em;
 }
 
 
@@ -908,7 +841,7 @@ font-weight: 700;
             font-size: 1.7em;
             font-weight: 900;
             color: #ff8b00;
-            padding: 20px;
+            padding: 1.2em;
             }
 
 
@@ -924,7 +857,7 @@ font-weight: 700;
 @media screen and (max-width:850px) and (min-width:741px)  {
 
     .content-1>.image>img{
-        max-width: 350px;
+        max-width: 100%;
         height: max-content;
     } 
 
@@ -933,7 +866,26 @@ font-weight: 700;
     min-width: 500px;
     }
     
+
+    form tr td, form tr td input, form tr td textarea  {
+        width: 400px;
+    }
+
+
+
+    .content-1>.text>button{
+        width: 60%;
+        }
+        
+        
+        .content-1>.text>button:hover{
+        width: 75%;
+        
+        }
+
+
 }
+
 
 
 @media screen and (max-width:740px) and (min-width:650px){
@@ -947,13 +899,13 @@ font-weight: 700;
     
     
     .content-1>.image>img{
-        max-width: 500px ;
+        max-width: 100% ;
         height: fit-content;
     } 
 
     .content-1, .content-2, .content{
         flex-direction: column;
-        max-width: 500px;
+        /* max-width: 500px; */
     }
 
 
@@ -999,14 +951,21 @@ font-weight: 700;
     
     
     .content-1>.image>img{
-        max-width: 500px ;
+        max-width: 100% ;
         height: fit-content;
     } 
 
     .content-1, .content-2, .content{
         flex-direction: column;
-        max-width: 500px;
     }
+
+
+    form tr td, form tr td input, form tr td textarea  {
+        width: 300px;
+        padding: .8em;
+    }
+
+
 
 
     .content-1{
@@ -1067,46 +1026,46 @@ font-weight: 700;
         }
 
 
-    #cover h2{
-        padding: 30px;
-        color: white;
-        font-weight: 100;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    }
-
     
     #menu input[type='search']:focus {
         width: 90px;
     }
 
-
     #menubar>li>a{       
         padding: 15px 20px;
         }
+
+        #cover img{
+            width: 300px;
+            height: auto;
+            }
+
+            #cover h2{
+            font-size: 1em;
+            }
    
 }
 
-@media screen and (max-width:520px) {
+@media screen and (max-width:520px) and (min-width:400px) {
 
 
        
     html,body{
         width: 100%;
     min-width: 300px;
-    font-size: 8px;
+    font-size: 10px;
     }
     
     
     
     .content-1>.image>img{
-        max-width: calc(100%-100px) ;
+        max-width: 100% ;
         height: fit-content;
     } 
 
     .content-1, .content-2, .content{
         flex-direction: column;
-        max-width: 500px;
+        /* max-width: 500px; */
     }
 
 
@@ -1139,8 +1098,6 @@ font-weight: 700;
 
 
     
-    
-
     #cover{
         /* max-width: 500px; */
         /* margin: auto; */
@@ -1153,12 +1110,13 @@ font-weight: 700;
         flex-direction:column;
         margin: auto;
         display: inline-block;
-        max-width: 400px;
+        max-width: 300px;
     }
    
     
     #cover .buttons button{
-        margin: 10px;    
+        margin: 5px;
+        font-size: 0.8em;    
     }
 
 
@@ -1169,7 +1127,7 @@ font-weight: 700;
 
 
     #cover h2{
-        padding: 30px;
+        padding: 20px;
         color: white;
         font-weight: 100;
         text-transform: uppercase;
@@ -1178,16 +1136,141 @@ font-weight: 700;
 
     
     #menu input[type='search']:focus {
-        width: 90px;
+        width: 75px;
     }
 
 
     #menubar>li>a{       
-        padding: 15px 20px;
+        padding: 15px 10px;
         }
+
+        #cover img{
+            width: 250px;
+            }
+
+            #cover h2{
+            font-size: 1em;
+            }
    
 }
 
 
+
+
+@media screen and (max-width:400px) and (min-width:200px){
+
+
+
+       
+    html,body{
+        width: 100%;
+    min-width: 200px;
+    font-size: 9px;
+    }
+    
+    
+    
+    .content-1>.image>img{
+        max-width: 100% ;
+        height: fit-content;
+    } 
+
+    .content-1, .content-2, .content{
+        flex-direction: column;
+    }
+
+
+    .content-1{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 20px rgba(70, 69, 69,.3);
+        justify-content: space-between;
+        align-items:center;
+        transition: 1000ms;
+        transform: scale(1);
+    
+    }
+
+    .content-2{
+        flex-direction: column;
+        align-items:flex-start;
+
+    
+    }
+    .content-2 .image{
+        margin: 0 auto;
+    
+    }
+
+    .content-2>.text{
+        width: 100%;
+    }
+
+
+    
+    #cover{
+        /* max-width: 500px; */
+        /* margin: auto; */
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #cover .buttons{
+        display: flex;
+        flex-direction:column;
+        margin: auto;
+        display: inline-block;
+        max-width: 200px;
+    }
+   
+    
+    #cover .buttons button{
+        margin: 5px;
+        font-size: 0.8em;    
+    }
+
+
+
+    #cover Button:hover{
+        width:80% ;
+        }
+
+
+    #cover h2{
+        padding: 20px;
+        color: white;
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    
+    #menu input[type='search']:focus {
+        width: 75px;
+    }
+
+    .right>ul>li .utube, .right>ul>li .fb{
+        display: none;
+    }
+
+
+    #menubar>li>a{       
+        padding: 15px 5px;
+        }
+
+        #cover img{
+            width: 250px;
+            }
+
+            #cover h2{
+            font-size: 1em;
+            }
+
+            #menu input::placeholder{
+                font-size: .5em;
+            }
+   
+}
 
 
