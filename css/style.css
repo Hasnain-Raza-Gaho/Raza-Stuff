@@ -226,12 +226,13 @@ color: white;
 
 
     #cover h2{
-        padding: 1.8em;
+        padding: 2em;
     color: #ff8b00;
+    font-size: 2em;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     }
 
 
@@ -244,7 +245,7 @@ color: white;
         background: transparent;
         text-transform: uppercase;
         letter-spacing: 4px;
-        padding: 1.8em;
+        padding: 1.5em;
         display: block;
     }
 
@@ -252,14 +253,14 @@ color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 700px;
+        width: 80%;
         margin-bottom: 2em;
 
     }
     #cover button{
     background-color: transparent;
     margin: 0 1.8em;
-    width: 60%;
+    width: 55%;
     background-color: #ff8b00;
     border-radius: 40px;
     transition: 1000ms;
@@ -268,7 +269,7 @@ color: white;
     }
 
     #cover Button:hover{
-    width:80% ;
+    width:85% ;
     }
 
 
@@ -983,6 +984,16 @@ font-weight: 700;
         
         }
 
+        #menu input[type='search']:focus {
+            width: 75px;
+        }
+
+        .right>ul>li .utube, .right>ul>li .fb{
+            display: none;
+        }
+
+
+
     }
 
 
@@ -1035,7 +1046,22 @@ font-weight: 700;
     .content-2>.text{
         width: 100%;
     }
+    .right>ul>li .utube, .right>ul>li .fb{
+        display: none;
+    }
+    
+    #menubar>li>a{       
+        padding: 15px 15px;
+        }
+        #menu input[type='search']:focus {
+            width: 75px;
+        }
      
+
+        #cover button a{
+            padding: 1em;
+        }
+
 }
 
 
@@ -1112,6 +1138,7 @@ font-weight: 700;
         margin: auto;
         display: inline-block;
         max-width: 400px;
+        margin-bottom: 20px;
     }
    
     
@@ -1128,11 +1155,11 @@ font-weight: 700;
 
     
     #menu input[type='search']:focus {
-        width: 90px;
+        width: 75px;
     }
 
     #menubar>li>a{       
-        padding: 15px 20px;
+        padding: 15px 15px;
         }
 
         #cover img{
@@ -1141,8 +1168,20 @@ font-weight: 700;
             }
 
             #cover h2{
-            font-size: 1em;
+            font-size: 1.5em;
             }
+
+            .right>ul>li .utube, .right>ul>li .fb{
+                display: none;
+            }
+
+            #menubar>li>a{       
+                padding: 15px 15px;
+                }
+
+                #cover button a{
+                    padding: 1em;
+                }
    
 }
 
@@ -1210,7 +1249,8 @@ font-weight: 700;
         flex-direction:column;
         margin: auto;
         display: inline-block;
-        max-width: 300px;
+        /* max-width: 300px; */
+        margin-bottom: 20px;
     }
    
     
@@ -1228,9 +1268,9 @@ font-weight: 700;
 
     #cover h2{
         padding: 20px;
-        color: white;
-        font-weight: 100;
-        text-transform: uppercase;
+        color: #ff8b00;
+        font-weight: 600;
+        font-size: 20em;
         letter-spacing: 2px;
     }
 
@@ -1251,20 +1291,24 @@ font-weight: 700;
             #cover h2{
             font-size: 1em;
             }
+
+            .right>ul>li .utube, .right>ul>li .fb{
+                display: none;
+            }
    
 }
 
 
 
 
-@media screen and (max-width:400px) and (min-width:200px){
+@media screen and (max-width:400px){
 
 
 
        
     html,body{
         width: 100%;
-    min-width: 200px;
+    min-width: 300px;
     font-size: 9px;
     }
     
